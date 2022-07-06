@@ -54,6 +54,11 @@ body{
 .header .li:last-of-type{
   margin-right: 0;
 }
+.header .li:hover{
+  transform: scale(1.2);
+  color: #FFC700;
+  cursor: pointer;
+}
 .header img{
   width: 100px;
   height: 40px;
