@@ -146,6 +146,15 @@ body{
   margin-left: 20px;
   position: relative;
 }
+
+
+.sroll_animation{
+  opacity: 60%;
+}
+.sroll_animation:hover{
+  opacity: 100%;
+  cursor: pointer;
+}
 .scrol_img_2{
   position: absolute;
   bottom: 80px;
