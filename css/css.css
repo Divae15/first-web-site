@@ -110,12 +110,6 @@ body{
   animation-timing-function: cubic-bezier(0, 0, 0.47, 0.49);
   position: relative;
 }
-@keyframes move {
-  0% {left: 0}
-  100% {left: 10px;}
-}
-
-
 /* Иконки */
 .logo_block{
   display: flex;
@@ -140,4 +134,46 @@ body{
 .insta{
   width: 27px;
   height: 27px;
+}
+
+.scroll{
+  display: flex;
+  position: absolute;
+  bottom:-120px;
+  right: 300px;
+}
+.scroll_img{
+  margin-left: 20px;
+  position: relative;
+}
+.scrol_img_2{
+  position: absolute;
+  bottom: 80px;
+  left:140px;
+
+}
+.scrol_img_3{
+  position: absolute;
+  bottom: 100px;
+  left:160px;
+  width: 36px;
+  height: 36px;
+  background-color: #FFC700;
+  border-radius: 50px;
+}
+.scrol_img_polygon{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  bottom: 109px;
+  left:172px;
+  opacity: 50%;
+}
+
+
+
+
+@keyframes move {
+  0% {left: 0}
+  100% {left: 10px;}
 }
