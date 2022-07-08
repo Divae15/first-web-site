@@ -154,6 +154,9 @@ body{
 .sroll_animation:hover{
   opacity: 100%;
   cursor: pointer;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  
 }
 .scrol_img_2{
   position: absolute;
