@@ -68,6 +68,7 @@ body{
 .first_block{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 263px;
 }
 /* Текст и кнопка */
 .text_logo{
@@ -156,7 +157,7 @@ body{
   cursor: pointer;
   transition-duration: 1s;
   transition-delay: 0.2s;
-  
+
 }
 .scrol_img_2{
   position: absolute;
@@ -180,6 +181,53 @@ body{
   bottom: 109px;
   left:172px;
   opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+.scrol_card{
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/scrol-card_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.scrol_card .type{
+  font-size: 12px;
+}
+.scrol_card_h3{
+  font-size: 14px;
+  color: #FFC700;
+  font-weight: 700;
+}
+.scrol_card_prace_time_span{
+  font-size: 12px;
+}
+.scrol_card_prace_time_span{
+  font-size:12px;
+}
+.discription{
+  font-size: 12px;
+}
+.button_scrol_card{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+  width: 230px;
+  height: 50px;
+  border-radius: 60px;
+  border: none;
+
+
+
 }
 
 
