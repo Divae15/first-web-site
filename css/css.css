@@ -66,9 +66,10 @@ body{
 }
 /* Контент на первом блоке */
 .first_block{
+  height: 790px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 263px;
+
 }
 /* Текст и кнопка */
 .text_logo{
@@ -116,7 +117,7 @@ body{
   display: flex;
   align-self: center;
   flex-direction: column;
-  margin-top: 320px;
+
 }
 .logo_block img{
   margin-bottom: 15px;
@@ -199,6 +200,10 @@ body{
   background-repeat: no-repeat;
   color: white;
 }
+.scrol_card_content{
+  padding: 210px 16px 16px 16px;
+
+}
 .scrol_card .type{
   font-size: 12px;
 }
@@ -206,7 +211,15 @@ body{
   font-size: 14px;
   color: #FFC700;
   font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
 }
+.prace_time{
+  display: flex;
+  width: 125px;
+  justify-content: space-between;
+}
+
 .scrol_card_prace_time_span{
   font-size: 12px;
 }
@@ -215,19 +228,20 @@ body{
 }
 .discription{
   font-size: 12px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .button_scrol_card{
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 700;
   background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
-  width: 230px;
-  height: 50px;
+  width: 160px;
+  height: 40px;
   border-radius: 60px;
   border: none;
-
-
-
+  margin-bottom: 40px;
 }
 
 
