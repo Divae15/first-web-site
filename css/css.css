@@ -190,12 +190,28 @@ body{
 
 
 
+.h2 {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.h2 h2{
+  color:#0499DD;
+  font-size:24px;
+  font-weight:700;
+}
+.h2 a{
+  font-size:12px;
+  color:#282828;
+}
+
+
 
 .scrol_card_main{
   display: flex;
   justify-content: space-between;
   width:1600px;
-  margin-top:70px;
+  margin-top:90px;
 }
 .scrol_card{
   width: 360px;
