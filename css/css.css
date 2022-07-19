@@ -215,13 +215,20 @@ body{
 }
 .scrol_card{
   width: 360px;
-  height: 500px;
+  height: 497px;
   color: white;
+  border-radius: 15px;
+}
+.scrol_card:hover{
+  box-shadow:1px 1px 10px black;
 }
 .scrol_card_content{
   padding: 210px 16px 16px 16px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
 
 }
 .card_1{
@@ -279,6 +286,61 @@ body{
   border: none;
   margin-bottom: 40px;
 }
+.button_scrol_card:hover{
+  transform: scale(1.01);
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+
+.benifits_main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.benifits_row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.benifits_row_el{
+  display: flex;
+  width: 49%;
+  justify-content:space-between;
+}
+.benifits_row_el img{
+  width:75px;
+  height:75px;
+}
+.benifits_row_el h3{
+  color: #0499DD;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.benifits_row_el span{
+  font-weight: 500;
+  font-size: 14px;
+}
+.benifits_row_text{
+  margin-left: 20px;
+}
+.discription_benefits{
+  display: block;
+  margin: 0 auto;
+  width:550px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 60px;
+}
+.benifits_button{
+    justify-content: center;
+}
+
+
+
+
+
 
 
 
