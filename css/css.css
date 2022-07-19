@@ -25,7 +25,7 @@ body{
   justify-content: center;
   position: absolute;
   top:0;
-  width:100%;
+  width:1440px;
   height: 790px;
   z-index: 2;
 }
@@ -291,8 +291,6 @@ body{
   transition-duration: 0.1s;
   cursor: pointer;
 }
-
-
 .benifits_main{
   display: flex;
   flex-direction: column;
@@ -336,9 +334,22 @@ body{
 .benifits_button{
     justify-content: center;
 }
+.gallery{
+  width:1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: -100px;
+}
 
 
-
+.gallery_1_row_2{
+  display: flex;
+  justify-content: space-between;
+}
+.gallery_3_row_1{
+  display: flex;
+}
 
 
 
